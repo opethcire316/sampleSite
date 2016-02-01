@@ -1,0 +1,14 @@
+<html ng-app='myApp'>
+<head>
+  <script src="/bower_components/angular/angular.js"></script>
+  <script src="/js/MainController.js"></script>
+<body ng-controller='mainCtrl'>
+  <p>Nothing here {{'yet'}}</p>
+  <ul>
+    <li ng-repeat='phone in phones'>
+      <span>{{phone.name}}</span>
+      <p>{{phone.description}}</p>
+    </li>
+  </ul>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+  width: auto;
+  height: auto;
+}
+
+#siteHeader {
+  display: flex;
+  flex=direction: row;
+}
+
+#siteHeader .container {
+  display: block;
+  width: 100%;
+  max-width: 988px;
+  margin: 0 auto;
+}
+
+#siteLogo {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 60px;
+}
+
+#siteNav {
+  display: block;
+  text-align: center;
+}
+
+#siteNav ul li {
+  display: inline-block;
+}

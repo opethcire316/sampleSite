@@ -11,6 +11,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname,'public','views','main.html'));
 });
 
+app.get('/two', function (req, res) {
+  res.sendFile(path.join(__dirname,'public','views','two.html'));
+});
+
 app.listen(3000, function () {
   console.log('Server listening on port 3000');
 });

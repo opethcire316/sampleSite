@@ -2,7 +2,25 @@
 <head>
   <script src="/bower_components/angular/angular.js"></script>
   <script src="/js/MainController.js"></script>
+  <link href="/css/main.css" rel="stylesheet" type="text/css" />
 <body ng-controller='mainCtrl'>
+  <header id="siteHeader">
+    <div class="container">
+      <a id="mainRedirect" href="/">
+        <img id="siteLogo" src='/img/Logo.png' alt='Eric W. Site' />
+      </a>
+      <nav id="siteNav">
+        <ul>
+          <li>Home</li>
+          <li>Getting Started</li>
+          <li>Guide</li>
+          <li>API Reference</li>
+          <li>Advanced Topics</li>
+          <li>Resources</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <p>Nothing here {{'yet'}}</p>
   <ul>
     <li ng-repeat='phone in phones'>

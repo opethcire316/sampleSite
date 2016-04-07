@@ -1,4 +1,50 @@
-#jelly-img {
-  width: 100%;
-  border-radius: 5px;
+html, body {
+  background-color: #262626;
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+#site-header {
+  color: white;
+}
+
+#site-header nav {
+  float: right;
+}
+
+#site-header li {
+  list-style: none;
+}
+
+#site-header a {
+  color: #e6e6e6;
+}
+
+#site-body {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+#site-body h1 {
+  color: white;
+}
+
+#site-body p {
+  color: #e6e6e6;
+}
+
+#site-footer {
+  position: fixed;
+  bottom: 0;
+  color: #808080;
+  width: inherit;
+}
+
+#site-footer > p {
+  width: inherit;
+}
+#site-footer .footer-highlight {
+  color: white;
 }
